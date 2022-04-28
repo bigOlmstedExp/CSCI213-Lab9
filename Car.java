@@ -100,47 +100,4 @@ public class Car extends Vehicle
 	
 	
 	
-	
-	
-	
-	/*
-	@Override
-	public double getArea()
-	{
-		return 4 * Math.PI * (this.getRadius() * this.getRadius());
-	}
-	
-	
-	public double getVolume()
-	{
-		return  (4.0/3) * Math.PI * Math.pow(this.getRadius(), 3);
-	}
-	
-	
-	public boolean equals(Object other)
-	{
-		if(!(other instanceof Sphere)) 
-		{
-			return false;
-		}
-		
-		Sphere otherSphere = (Sphere) other;
-		
-		if(super.equals(other))
-		{
-			if(this.getArea() == otherSphere.getArea())
-			{
-				if(this.getVolume() == otherSphere.getVolume())
-				{
-					return true;
-				}
-			}
-			return false;
-		}
-		
-		return false;
-	}
-	
-	*/
-	
 }
